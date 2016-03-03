@@ -1,7 +1,7 @@
 <?php
 
 //where we are
-namespace DannyAllen;
+namespace Dao;
 
 //what we're using
 use Exception;

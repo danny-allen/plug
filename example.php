@@ -3,8 +3,8 @@
 	//autoloader
 	require_once('vendor/autoload.php');
 
-	//what we are using here
-	use DannyAllen\Plug;
+	//what we are using
+	use Dao\Plug;
 
 	//prepare your request
 	$request = 'Something to send - maybe XML!';
