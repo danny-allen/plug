@@ -68,7 +68,7 @@ class Plug {
 
 		//if no result, throw exception.
 		if ($connection === false) {
-		     throw new Exception("Couldn't connect to the socket. Reason: ($connection) " . socket_strerror(socket_last_error($this->_socket)));
+		     throw new Exception("Couldn't connect to the socket. Reason: " . socket_strerror(socket_last_error($this->_socket)));
 		}
 	}
 
